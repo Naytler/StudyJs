@@ -1,0 +1,31 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.game__count{
+    width: 100px;
+    height: 150px;
+}
+
+.game3{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.hole{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.animal{
+    background-image: url(game3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
