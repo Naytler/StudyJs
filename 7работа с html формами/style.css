@@ -13,4 +13,14 @@
 .header__nav{
     display: grid;
     justify-content: start;
+    gap: 10px;
+}
+
+
+.hint{
+    color: gray;
+}
+
+.hide{
+    display: none;
 }
