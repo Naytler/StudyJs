@@ -6,9 +6,6 @@
     height: 50px;
 }
 
-.header{
-    height: 2000px;
-}
 
 .header__nav{
     display: grid;

@@ -15,11 +15,68 @@
                 <input type="select" placeholder="1">
                 <input type="select" placeholder="2">
                 <input type="select" placeholder="3">
-                <input type="radio" data="1">
-                <input type="radio" data="2">
-                <input type="radio" data="3">
-                <input type="checkbox">
-                <input type="textarea">
+                <label>
+                    <input type="radio" name="1" value="личный" checked id="private">
+                    личный
+                </label>
+                <label>
+                    <input type="radio" name="1" value="семейный" id="family">
+                    семейный
+                </label>
+                <label>
+                    <input type="radio" name="1" value="бизнес" id="business">
+                    бизнес
+                </label>
+                <button class="radio">next value</button>
+                <label>
+                    
+                    <input type="checkbox" name="isAgree" id="isAgree" checked>
+                    готов
+                </label>
+                <label>
+                    <input type="checkbox" name="isAgree" id="isAgree">
+                    не готов
+                </label>
+                <label>
+                    <input type="checkbox" name="isAgree" id="isAgree">
+                    думаю
+                </label>
+                <button class="block">Заблокировать</button>
+                <select name="" id="country">
+                    <option value="Russia">Russia</option>
+                    <option value="England">England</option>
+                    <option value="Gergia">Gergia</option>
+                    <option value="poland">Poland</option>
+                </select>
+                <button class="option">следующая страна</button>
+                value - значение выбранной области <br>
+                selectIndex - порядковый номер выбранной области <br>
+                option - список всех доступных опций
+                <textarea  type="textarea"></textarea>
+                <br>
+                <br>
+                <br>
+                <form class="form" name="Registration">
+                    <label>
+                        отправка формы емаил
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        <input type="checkbox" name="private" checked>
+                        согласны с политикой конфедициальности
+                    </label>
+                    <br>
+                    <button class="sendForm">отправить фоорму</button>
+                    <button type="reset">чистит поле ввода reset</button>
+                </form>
+                <br><br><br>
+                <form>
+                    <label>
+                        введите число от 3 до 6
+                        <input type="number" id="number" min="3" max="6">
+                    </label>
+                    <button>отправить</button>
+                </form>
             </nav>
         </div>
     </header>
