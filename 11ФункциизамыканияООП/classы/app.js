@@ -9,17 +9,9 @@ myAlert('Hello', 'orange', '.test2');
 // переводим код выше на ооп
 //class это шаблон набор штампов
 
-class Alert {
-    constructor(a,c,d){
-        this.message = a;
-        this.cssClass = c;
-        this.out = d;
-    }
-    showAlert(){
-        document.querySelector(this.out).innerHTML = `<p class='${this.cssClass}'>${this.message}</p>`
-    }
-}
-
 let m = new Alert('My message', 'red', '.test');
 console.log(m);
 m.showAlert();
+
+let m2 = new Alert2('My message', 'red', '.test', 'instagram.svg');
+m2.showAlertIcon();
