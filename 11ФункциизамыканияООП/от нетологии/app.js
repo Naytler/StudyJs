@@ -40,4 +40,4 @@ console.log(car); //Product {id: 282, price: 80000, name: 'Vaz', category: 'Car
 const person = {
     name: 'john',
     age: 45,
-}
+};
