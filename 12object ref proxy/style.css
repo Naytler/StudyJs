@@ -1,0 +1,23 @@
+.one{
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: rgb(26, 155, 155);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+.two{
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10%;
+    width: 150px;
+    height: 50px;
+}
