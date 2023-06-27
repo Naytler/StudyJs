@@ -39,11 +39,32 @@ step2()
 
 //задача на попрошайку
 
-function recurs(n,x){
-    return recurs(n-2,x-1)
+function randomInteger(min, max){
+    let rand = min - 0.5 + Math.random() * (max - min + 1);
+    return Math.round(rand)
 }
+console.log(randomInteger(0, 100))
 
-recurs(7,6);
+function createBeggar(){
+    let s = 0
+    return function beggar(){
+        s += randomInteger(0,100)
+        console.log(s);
+        if(s > 250) return;
+        beggar()
+    }
+}
+let crea = createBeggar();
+
+// crea()
+
+
+
+let p;
+
+
+
+
 
 
 function createIncrement() {
